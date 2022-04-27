@@ -87,10 +87,6 @@ basicStatsAnalyzeButton.addEventListener("click", function () {
 
 function getLeastCommonMultiple(nums : number[]) : number {
     let largest : number = nums[nums.length-1];
-    // for (let i = 0; i < nums.length; i++) {
-    //     if (nums[i] > largest)
-    //         largest = nums[i];
-    // }
     while (true) {
         let lcm : boolean = true;
         for (let i = 0; i < nums.length; i++) {
